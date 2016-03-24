@@ -273,6 +273,24 @@ article.single .image {
   }
 }
 
+article.single .image-credit {
+  font-size: .75em;
+  margin-top: -5px;
+  padding: 5px;
+  text-align: right;
+}
+
+article.single .image-credit a {
+  color: #999;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  article.single .image-credit a {
+    height: 12rem;
+  }
+}
+
 article.single .article-body {
   max-width: 650px;
   margin: 0 auto;
@@ -475,4 +493,3 @@ nav.paging .right {
   color: #999;
   padding: 0 .5rem;
 }
-
