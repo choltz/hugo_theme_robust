@@ -27,6 +27,7 @@
     {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}images/{{ . }}">{{ end }}
 
+    {{ template "_internal/google_analytics.html" . }}
   </head>
 
   <body>
@@ -36,4 +37,3 @@
     </header>
 
     <div class="container site">
-
