@@ -376,6 +376,7 @@ article.single .article-body pre code {
   font-size: .8rem;
   line-height: 1rem;
   padding: 1rem;
+  white-space: inherit;
 }
 
 #TableOfContents {
